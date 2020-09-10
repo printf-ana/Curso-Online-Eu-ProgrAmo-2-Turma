@@ -4,6 +4,7 @@ body {
     background-color: #8A71C9;
     color: #ffffff;
     margin: 0;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -39,8 +40,12 @@ p {
 }
 
 section {
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
+}
+
+section section {
+    width: 100%;
 }
 
 img {
@@ -57,5 +62,33 @@ a {
     text-decoration: none;
     color: #99ffff;
     font-weight: 700;
-    
 }
+
+.principal {
+    background: #ff6cb5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+  
+.principal a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.principal li {
+    display: inline-block; /*display block = não permite elementos ao redor, um ao lado do outro,
+    só empilhados
+    display inline-block = consegue*/
+    line-height: 2.5; /*centraliza o texto dentro do menu*/
+    margin: 0 89px;
+}
+
+button {
+    background-color: #41f341;
+    border: 1px solid transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+}
+
